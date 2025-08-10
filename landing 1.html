@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dropbox landing Page</title>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left a {
+    margin-left: 40px;
+    text-decoration: none;
+    color: #0070E0;
+    font-size: 14px;
+}
+
+
+.header-center img {
+    height: 50px;
+}
+
+.header-right a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #0070E0;
+    font-size: 14px;
+}
+
+.hero {
+    background-color: #B7D1E6;
+    display: flex;
+    align-items: center;
+    padding: 60px 10%;
+}
+
+.hero-text {
+    flex: 1;
+    max-width: 500px;
+}
+
+.h-text h1 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #1E1E1E;
+}
+
+.h-text p {
+    font-size: 18px;
+    color: #4a4a4a;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn1{
+    background-color: #0061FF;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn2 {
+    background-color: transparent;
+    border: 1px solid #0061FF;
+    color: #0061FF;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+.note {
+    margin-top: 20px;
+    color: #6a6a6a;
+}
+
+.h-image {
+    flex: 1;
+    text-align: right;
+}
+
+.h-image img {
+    max-width: 600px;
+    height: auto;
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+    <div class="header-left">
+    <a href="#">Get Dropbox Basic</a>
+    </div>
+     <div class="header-center">
+    <img src="logo.jpg" alt="Dropbox Logo" >
+    </div>
+    <div class="header-right">
+        <a href="#">Compare plans</a>
+        <a href="#">Sign in</a>
+    </div>
+</div>
+
+
+<div class="hero">
+    <div class="h-text">
+        <h1 style="font-size: 50px;">Work better, safer,<br> together.</h1>
+        <p style="font-size: 15px;">Dropbox Business simplifies your work, with <br> a central place to access and share files.</p>
+        <div class="buttons">
+            <a href="#" class="btn1">Try Dropbox Business free</a>
+            <a href="#" class="btn2">Get Dropbox Basic</a>
+        </div>
+        <p class="note" style="font-size: 12px;">Try Dropbox Business free for 30 days. No credit card needed.</p>
+    </div>
+    <div class="h-image">
+        <img src="image1.jpg" alt="Laptop and Hands">
+    </div>
+</div>
+
+</body>
+</html>
